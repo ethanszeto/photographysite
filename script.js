@@ -1,9 +1,11 @@
 window.addEventListener("load", loaded());
 
 function loaded(){
-	//generateIndividual("IMG_0010.HEIC", "ICY", "next");
+	//generateIndividual("assets/IMG_0010.png", "ICY", "next");
+
 }
 
+/*
 function generateIndividual(imgSRC, imgName, divID){
 	//container with unique ID
 	const container = document.createElement("div");
@@ -22,3 +24,4 @@ function generateIndividual(imgSRC, imgName, divID){
 	document.getElementById(divID).appendChild(title);
 	document.getElementById(divID).appendChild(picture);
 }
+*/
