@@ -1,7 +1,7 @@
 {
   "name": "htdocs",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSX Tranform - terminal on project folder",
   "main": "individual.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boeufin/photographysite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Boeufin/photographysite/issues"
+  },
+  "homepage": "https://github.com/Boeufin/photographysite#readme"
 }

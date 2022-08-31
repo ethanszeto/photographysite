@@ -1,9 +1,16 @@
 window.addEventListener("load", run());
 
 function run() {
-	ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(
-		"p",
+	var root = ReactDOM.createRoot(document.getElementById('root'));
+	var test = React.createElement(
+		'div',
 		null,
-		"example text"
-	));
+		React.createElement('img', { src: './assets/IMG_0010.png', alt: 'image' }),
+		React.createElement(
+			'h1',
+			null,
+			'Sample'
+		)
+	);
+	root.render(test);
 }
